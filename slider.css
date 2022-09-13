@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+}
+
+.button{
+    width: 10px;
+    position: absolute;
+    top: 30vh;
+    cursor: pointer;
+}
+
+.button--left{
+    left: 0;
+}
+
+.button--right{
+    right: 0;
+}
+
+.one,.two,.three{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.8s;
+}
+
+.one--red{
+    background-color: red;
+}
+.two--blue{
+    background-color: blue;
+}
+.three--green{
+    background-color: orange;
+}
